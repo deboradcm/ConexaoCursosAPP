@@ -22,7 +22,7 @@ public class SplashScreen extends AppCompatActivity {
             }
 
             private void irParaProximoActivity() {
-                Intent intent = new Intent(SplashScreen.this, login.class);
+                Intent intent = new Intent(SplashScreen.this, MainActivity.class);
                 startActivity(intent);
                 finish(); //finaliza o activity
             }

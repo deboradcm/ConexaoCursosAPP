@@ -7,7 +7,7 @@
     tools:context=".cadastroInstrutor">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/titleSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintTop_toBottomOf="@+id/titleSignIn">
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.713"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/titleSignIn" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/inputEmail"
@@ -117,7 +117,7 @@
         app:layout_constraintEnd_toStartOf="@+id/inputNome"
         app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/titleSignIn"
         app:srcCompat="@drawable/pessoa" />
 
     <ImageView
