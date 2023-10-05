@@ -1,3 +1,3 @@
 # ConexaoCursosAPP
 
-Trabalho de da disciplina de Andoid do Iartes
+Trabalho de da disciplina de Android do Iartes
