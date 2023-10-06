@@ -32,4 +32,20 @@ public class CursoAdapter extends RecyclerView.Adapter<CursoViewHolder> {
         holder.id = cursos.get(position).getId();
     }
     public int getItemCount() { return cursos.size(); }
+
+    public void filter(String searchText) {
+        if (searchText.isEmpty()) {
+            cursos = cursoDAO.getList();
+        } else {
+            ArrayList<Curso> filteredList = new ArrayList<>();
+            for (Curso curso : cursoDAO.getList()) {
+                if (curso.getName().toLowerCase().contains(searchText)) {
+                    filteredList.add(curso);
+                }
+            }
+            cursos = filteredList;
+        }
+
+        notifyDataSetChanged();
+    }
 }
