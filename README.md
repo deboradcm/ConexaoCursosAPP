@@ -16,9 +16,9 @@ ConexãoCursos é um aplicativo móvel desenvolvido como parte da disciplina de 
 
 ### Equipe de Desenvolvimento:
 
-- **Bruna Mariana**
+- **Bruna Mariana Ferreira de Souza**
 - **Débora da Costa Medeiros**
-- **Vaber Tavares**
+- **Valber Tavares**
 
 ### Licenciamento:
 
