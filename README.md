@@ -10,7 +10,9 @@ ConexãoCursos é um aplicativo móvel desenvolvido como parte da disciplina de 
 - **Usuários**: Perfil duplo - Aluno e Instrutor.
 
 
-🎥 [Clique aqui para assistir ao vídeo demonstrativo do aplicativo em funcionamento](URL_DO_VIDEO).
+🎥 Vídeo demonstrativo do aplicativo em funcionamento:
+
+https://github.com/deboradcm/ConexaoCursosAPP/assets/38324406/0baa389e-1877-49a3-a970-32b24905f941
 
 
 
